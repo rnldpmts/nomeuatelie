@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: darkgreen;
+ 
+}
+h1{
+  color: darkgreen;
+  font-size: 5rem;
+}
+header{
+  width: 100%;
+  height: 300px;
+
+}
+#cabeca{
+    display:flex;
+  justify-content: center;
+  padding: 50px;
+  height: 200px;
+  margin: 0%;
+  align-items: center;
+  background-color: #ddeeca;
+}
+#logo{
+  height: 200px;
+  border-radius: 100%;
+}
+.menu {
+  background-color: darkgreen;
+  display:flex;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5)
+}
+
+.menu a {
+  padding: 14px;
+  text-decoration: none;
+  color: #ddeeca;
+  transition: background-color .5s;
+  margin-top: 10px;
+}
+
+.menu a:hover {
+  background-color: #ddeeca;
+  color: darkgreen;
+}
+.corpo{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: white;
+  text-align: center;
+}
+#eu{
+  position: relative;
+  left: 20%;
+}
+#redes{
+  width: 100%;
+  height: 200px;
+  text-align: left;
+  background-color:#ddeeca ;
+  color: darkgreen;
+  border-radius: 10px;
+}
+#logo0{
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-style: solid;
+  border-color: darkgreen;
+  border-radius: 100%;
+}
+#perfil{
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-color: darkgreen;
+  border-radius: 100%;
+}
+#sociais{
+  display: flex;
+  align-content: center;
+}
